@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class CategoryModel {
 	@Id
-	private int categoryId;
+	private Long categoryId;
 	@NotEmpty(message="Ten khong duoc de trong")
 	private String name;
 	
